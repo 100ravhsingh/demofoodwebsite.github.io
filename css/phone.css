@@ -1,0 +1,51 @@
+/* navbar section */
+#navbar{
+    flex-direction: column;
+}
+.logo{
+    margin
+}
+#navbar ul{
+    margin: 0px 10px;
+}
+#navbar ul li{
+    margin: 15px 5px;
+}
+#navbar ul li a{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 20px 20px;
+}
+
+/* home section */
+.section-1{
+    margin-top: 250px;
+}
+.heading-1{
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+.section-1 p{
+    font-size: 0.8rem;
+}
+/* service container */
+#service{
+
+  flex-direction: column;
+  
+    
+}
+.heading-2{
+    font-size: 1.3rem;
+}
+
+
+/* client section */
+
+
+
+/* contact form section */
+
+
+
+/* footer section */

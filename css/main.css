@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+/* navigation bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+   
+}
+
+/* logo */
+.logo{
+    /* border: 2px solid red; */
+    margin: -3px 15px;
+    
+}
+.logo img{
+    margin-left: 247px;
+    /* border:2px solid black; */
+    width: 85px;
+    height: 85px;
+    /* filter: invert(100%); */
+    box-shadow:-2px -2px 3px rgb(14, 13, 13);
+    border-radius: 50px;
+}
+/* navbar */
+#navbar ul{
+    display: flex;
+    /* border:2px solid black; */
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1rem;
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin-left:30px ;
+    color: rgb(14, 13, 13);
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+
+}
+/* home section */
+.section-1{
+    /* border: 2px solid black; */
+    margin-top: 120px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 2px;
+    justify-content: center;
+    align-items: center;
+    height: 332px;
+   /* margin: 40px; */
+}
+#home::before{
+    content: "";
+    background:url('../image/food3.jpg');
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    height: 74%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.heading-1{
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Piedra', cursive;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+
+}
+#home p{
+     text-align: center;
+     text-transform: uppercase;
+     /* font-family: 'Montserrat', sans-serif; */
+     margin: 15px;
+     
+}
+
+.btn{
+    display: block;
+    padding: 6px 20px;
+    border: 1px solid rgb(110, 190, 115);
+    background-color: rgb(220, 236, 224);
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:2px 2px 5px  rgb(170, 192, 170);
+    
+}
+.btn:hover{
+    box-shadow:3px 3px 8px   rgb(25, 26, 25);
+    background-color: white;
+}
+.service-containers {
+    /* border: 2px solid black; */
+    position: absolute;
+    top:383px ; 
+
+}
+.heading-2{
+    justify-content: center;
+   margin-top: 0px;
+   padding-top:10px ;
+   font-size: 1.8rem;
+    text-align: center;
+    
+    
+}
+#service{
+    /* border: 2px solid rgb(155, 29, 29); */
+    display: flex;
+    margin:10px 90px;
+}
+.box{
+    border: 1px solid  rgb(36, 93, 43);
+    background-color: rgb(199, 231, 203);
+    margin: 5px 30px;
+    border-radius: 10px;
+    
+}
+.box img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    padding: 5px 0px;
+    border-radius: 100px;
+
+}
+.box1{
+    border: 1px solid  rgb(36, 93, 43);
+    background-color: rgb(199, 231, 203);
+    margin: 5px 30px;
+    border-radius: 10px;
+   
+}
+.box1 img{
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 185px;
+    padding: 5px 0px;
+    
+    /* border-radius: 100px; */
+
+}
+.heading-3{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    /* border: 1px solid green; */
+    border-radius: 40px;
+    
+    text-transform: capitalize;
+}
+.heading-3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    padding: 10px;
+    
+}
+.heading-3-1{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    /* border: 1px solid green; */
+    border-radius: 40px;
+   margin-top: 11px;
+    text-transform: capitalize;
+}
+.heading-3-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    padding: 10px;
+
+}
+.box p, .box1 p{
+    text-align: justify;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    
+}
+/* client section */
+
+#client-section{
+        /* border :1px solid rgb(36, 129, 155); */
+   /* background-color: rgb(203, 222, 228); */
+   margin: 0px 15px;
+    margin-top: 450px;
+    /* width: 100%; */
+    position: relative;
+    border-radius: 50px;
+    color: rgb(13, 14, 14);
+    text-transform: capitalize;
+}
+
+#client-section::before{
+    border :2px solid rgb(217, 181, 228);
+    content: "";
+    position: absolute;
+    /* top: 1200px; */
+    background: url(../image/food4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1 ;
+    opacity: 0.3;
+    border-radius: 35px;
+}
+#client-section h2{
+    text-align: center;
+    margin-left: 552px;
+    display: inline-block;
+    text-transform: capitalize;
+    
+    /* border :2px solid rgb(19, 179, 24); */
+}
+.clients-logo{
+    /* border :2px solid rgb(104, 41, 163); */
+    display: flex;
+    width: 99%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+.clients-logo img{
+    /* border :2px solid rgb(62, 98, 104); */
+    width: 110px;
+    height: 80px;
+    /* border-radius: 50px; */
+    margin-left: 15px;
+    padding-top: 5px;
+    
+}
+/* contact section */
+
+#contact-form{
+    position: relative;
+    color: rgb(5, 5, 5);
+    margin: 20px 20px;
+   
+   
+}
+#contact-form::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: url(../image/food7.jpg) no-repeat center center/cover;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+.heading-contact{
+    text-align: center;
+    font-size: 2.3rem;
+    
+    text-transform: capitalize;
+}
+
+.contact-box{
+    
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+}
+.contact-box form{
+    width: 40%;
+}
+.contact-box label{
+    font-size: 0.9rem;
+    padding: 15px 5px;
+    text-transform: capitalize;
+}
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+#submit {
+    display: block;
+    width: auto;
+    margin: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    font-size: 0.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

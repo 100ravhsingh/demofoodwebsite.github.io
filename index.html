@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food delivery</title>
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" media="screen and (max-width:700px) and (min-width:200px)" href="css\phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="image/logo.png" alt="logo.png">
+        </div>
+        <ul>
+            <li class="item" onclick="alertClassName()"><a href="#">Home</a></li>
+            <li class="item" onclick="alertClassName()"><a href="#">Services</a></li>
+            <li class="item" onclick="alertClassName()"><a href="#">about us</a></li>
+            <li class="item" onclick="alertClassName()"><a href="#">add cart</a></li>
+            <li class="item" onclick="alertClassName()"><a href="#">contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="section-1">
+            <h1 class="heading-1">Welcome online meal</h1>
+            <p> "Take a taste. Come join us. Life is so endlessly delicious.”</p>
+            <button class="btn">
+                order now
+            </button>
+        </div>
+    </section>
+    <section class="service-containers">
+        <h1 class="heading-2">Our services</h1>
+        <div id="service">
+            <div class="box">
+                <img src="image/food8.jpg" alt="">
+                <h2 class="heading-3"> <a href="#"> food ordering </a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime aspernatur eveniet quam, neque
+                    officia vel libero sit nisi</p>
+
+            </div>
+            <div class="box">
+                <img src="image/food6.jpg" alt="">
+                <h2 class="heading-3"> <a href="#"> food catering </a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime aspernatur eveniet quam, neque
+                    officia vel libero sit nisi</p>
+
+            </div>
+            <div class="box1">
+                <img src="image/food9.png" alt="">
+                <h2 class="heading-3-1"> <a href="#"> bulk ordering </a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime aspernatur eveniet quam, neque
+                    officia vel libero sit nisi</p>
+
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h2>our clients</h2>
+        <div class="clients-logo">
+            <img src="image/logo1.png" alt="">
+            <img src="image/logo2.png" alt="">
+            <img src="image/logo3.png" alt="">
+            <img src="image/logo4.png" alt="">
+            <img src="image/logo5.png" alt="">
+            <img src="image/logo6.png" alt="">
+
+
+        </div>
+    </section>
+    <!-- contact form -->
+    <section id="contact-form">
+        <h1 class="heading-contact">Contact us</h1>
+        <div class="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">phone no.: </label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter your phone no.">
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message: </label>
+                    <textarea name="Message" id="Message" cols="22" rows="4" placeholder="Enter a message"></textarea>
+                </div>
+                <div class="form-group1">
+                    <input type="button" value="submit" name="submit" id="submit" onclick="alertClassName()">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            copyright &copy; www.100ravhDesign.com <br> All Rights Reserve.
+        </div>
+    </footer>
+
+<script >
+    alert(
+        'click here to open food delivering website'
+    );
+
+    function alertClassName(){
+        alert('Sorry, Shobhit this is not a Dynamic website')
+    }
+   
+</script>
+</body>
+
+
+
+</html>
